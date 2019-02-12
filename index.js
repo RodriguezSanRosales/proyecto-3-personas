@@ -19,8 +19,8 @@ let estado = "cool";
 
 console.log(intro.inicio(transporte2, postSentimient, durmio) + nudo.historia(personaje, bebidas) + final.historiafinal(lugar, estado));
 
-console.log(cowsay.say({
-    text: texto,
-    e: ojoVaca,
-    T: "v "
-}));
+// console.log(cowsay.say({
+//     text: texto,
+//     e: ojoVaca,
+//     T: "v "
+// }));
