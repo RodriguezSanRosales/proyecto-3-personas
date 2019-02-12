@@ -12,7 +12,7 @@ let postSentimient= "Mejor";
 let durmio ="durmio";
 
 let personaje = "Oscar";
-let bebida = "cervezas";
+let bebidas = "cervezas";
 console.log(intro.historia(personaje, lugar, edad) + nudo.historia(otroP, lugar) + final.historia(personaje, lugar));
 
 console.log(cowsay.say({
