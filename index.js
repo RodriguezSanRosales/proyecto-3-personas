@@ -10,6 +10,7 @@ const edad = 19;
 let transporte2 = "Bus";
 let postSentimient= "Mejor";
 let durmio ="durmio";
+let dias =100;
 
 let personaje = "Oscar";
 let bebidas = "cervezas";
@@ -17,7 +18,7 @@ let bebidas = "cervezas";
 let lugar = "Bar de mala muerte";
 let estado = "cool";
 
-console.log(intro.inicio(transporte2, postSentimient, durmio) + nudo.historia(personaje, bebidas) + final.historiafinal(lugar, estado));
+console.log(intro.inicio(transporte2, postSentimient, durmio, dias) + nudo.historia(personaje, bebidas) + final.historiafinal(lugar, estado));
 
 // console.log(cowsay.say({
 //     text: texto,
