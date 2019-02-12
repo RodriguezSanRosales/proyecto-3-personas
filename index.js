@@ -10,10 +10,13 @@ const texto = "aaaa!";
 // const edad = Math.floor(Math.random() * 100);
 const edad = 19;
 
-/*otra historia */
-const personaje = 'Kenia';
-const lugar = 'parque';
-const otroP = 'conejo';
+
+let transporte2 = "Bus";
+let postSentimient= "Mejor";
+let durmio ="durmio";
+
+
+
 
 //string historia
 // const historia = "Habia una vez una vaca llamada " + nombre +" y todo el tiempo comia " + comida + " con otras vacas hasta que se intoxico y murio."  ;
