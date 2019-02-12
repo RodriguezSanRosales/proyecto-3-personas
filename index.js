@@ -13,7 +13,11 @@ let durmio ="durmio";
 
 let personaje = "Oscar";
 let bebidas = "cervezas";
-console.log(intro.historia(personaje, lugar, edad) + nudo.historia(otroP, lugar) + final.historia(personaje, lugar));
+
+let lugar = "Bar de mala muerte";
+let estado = "cool";
+
+console.log(intro.inicio(transporte2, postSentimient, durmio) + nudo.historia(personaje, bebidas) + final.historiafinal(lugar, estado));
 
 console.log(cowsay.say({
     text: texto,
