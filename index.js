@@ -33,20 +33,28 @@ fs.readFile('personajes.txt', 'utf-8', function(err,contenido){
 
     //Escribir historia
     console.log(historiaCompleta);
+
+    fs.writeFile('historia.txt', historiaCompleta, function(err){
+        if(err){
+            throw err;
+        }
+    });
+
 });
 
-//leer archivo bebidas
-fs.readFile('bebidas.txt','utf-8', function(err,contenido){
-    if(err){
-        throw err;
-    }
-    const bebidasVarias = contenido.split(',');
-    const numerosBebidas = Math.floor(Math.random() * bebidasVarias.length);
-    const bebidasRandom = bebidasVarias[numerosBebidas];
+// //leer archivo bebidas
+// fs.readFile('bebidas.txt','utf-8', function(err,contenido){
+//     if(err){
+//         throw err;
+//     }
+//     const bebidasVarias = contenido.split(',');
+//     const numerosBebidas = Math.floor(Math.random() * bebidasVarias.length);
+//     const bebidasRandom = bebidasVarias[numerosBebidas];
 
-    console.log(bebidasRandom);
-    console.log(bebidasVarias);
-})
+//     console.log(bebidasRandom);
+//     console.log(bebidasVarias);
+// })
+
 //partes de historia
 function juntarHistoria(personaje){
     const introHistoria = intro.inicio(transporte2, postSentimient, durmio);
