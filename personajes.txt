@@ -1,0 +1,1 @@
+pollo,vaca,buey,cabras,gallos,granjero,cerdos,aliens,reptilianos
